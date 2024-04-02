@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: easter;
+            src: url('fontes/EasterTime.ttf') format('truetype'), url('fontes/EasterTimeDark.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                Tipos de format()
+                - opentype(otf)
+                - truetype (ttf)
+                -embedded-opentype
+                - truetype-aat (Apple Advanced Typogarphy)
+                -svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: 'easter', Times, serif;
+            font-size: 5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Feliz Pascoa</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis autem dolor accusamus fugit unde nulla voluptate dolores deserunt deleniti ea aut provident, nostrum enim totam earum repellendus inventore, soluta incidunt?</p>
+</body>
+</html>
