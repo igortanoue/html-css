@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+div {
+    width: 1000px;
+    height: 800px;
+    padding: 20px;
+}
+.img001 {
+    display: inline-block;
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-image: url(imagens/press-inclinado.jpg);
+    
+}

@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption {
             font-size: 1.5 em;
@@ -20,17 +21,31 @@
             padding: 10px;
             background-color: lightslategray;
         }
+
         td, th {
             border: 1px solid black;
             padding: 10px;
         }
+
         thead, tfoot {
             background-color: gray;
             color: white;
         }
-        
+        thead > tr > th {
+            position: sticky;
+            top: 0; 
+            background-color: gray;
+        }
         td.num{
             text-align: right;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: white;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: lightgray;
         }
     </style>
 </head>
@@ -96,6 +111,166 @@
                 <td>Santa Catarina</td>
                 <td class="num"> 7.610.361</td>
             </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num"> 44.411.238	</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num"> 20.538.718	</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num"> 16.054.524	</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num"> 14.141.626	</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num"> 11.444.380</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num"> 10.882.965	</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num"> 9.058.931</td>
+            </tr>
+            <tr>
+                <td>Ceara</td>
+                <td class="num"> 8.794.957</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num"> 8.121.025</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num"> 7.610.361</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num"> 44.411.238	</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num"> 20.538.718	</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num"> 16.054.524	</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num"> 14.141.626	</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num"> 11.444.380</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num"> 10.882.965	</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num"> 9.058.931</td>
+            </tr>
+            <tr>
+                <td>Ceara</td>
+                <td class="num"> 8.794.957</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num"> 8.121.025</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num"> 7.610.361</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num"> 44.411.238	</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num"> 20.538.718	</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num"> 16.054.524	</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num"> 14.141.626	</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num"> 11.444.380</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num"> 10.882.965	</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num"> 9.058.931</td>
+            </tr>
+            <tr>
+                <td>Ceara</td>
+                <td class="num"> 8.794.957</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num"> 8.121.025</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num"> 7.610.361</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num"> 44.411.238	</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num"> 20.538.718	</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num"> 16.054.524	</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num"> 14.141.626	</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num"> 11.444.380</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num"> 10.882.965	</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num"> 9.058.931</td>
+            </tr>
+            <tr>
+                <td>Ceara</td>
+                <td class="num"> 8.794.957</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num"> 8.121.025</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num"> 7.610.361</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
@@ -104,5 +279,14 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam excepturi deserunt, pariatur incidunt asperiores dolorem, voluptas, quidem maiores mollitia exercitationem. Tenetur veritatis maiores incidunt qui et. Sequi, sint neque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, rem impedit eaque earum veniam, maxime pariatur, quas consequatur animi vero tenetur odit ab temporibus aperiam cum in officiis a nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt libero veniam modi consectetur atque voluptate? Consequuntur omnis, debitis tempore optio ex rerum eos quam quae exercitationem veniam, assumenda suscipit delectus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odit praesentium corporis vero velit quo, maxime maiores deserunt assumenda, iste numquam quis asperiores officia dolores quos tempore et! Dolores, aperiam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse laboriosam corrupti, ad velit quis beatae adipisci aliquid consequatur provident earum est quibusdam nisi, magni, eveniet eum mollitia. Doloremque, pariatur laudantium!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam excepturi deserunt, pariatur incidunt asperiores dolorem, voluptas, quidem maiores mollitia exercitationem. Tenetur veritatis maiores incidunt qui et. Sequi, sint neque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, rem impedit eaque earum veniam, maxime pariatur, quas consequatur animi vero tenetur odit ab temporibus aperiam cum in officiis a nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt libero veniam modi consectetur atque voluptate? Consequuntur omnis, debitis tempore optio ex rerum eos quam quae exercitationem veniam, assumenda suscipit delectus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odit praesentium corporis vero velit quo, maxime maiores deserunt assumenda, iste numquam quis asperiores officia dolores quos tempore et! Dolores, aperiam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse laboriosam corrupti, ad velit quis beatae adipisci aliquid consequatur provident earum est quibusdam nisi, magni, eveniet eum mollitia. Doloremque, pariatur laudantium!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam excepturi deserunt, pariatur incidunt asperiores dolorem, voluptas, quidem maiores mollitia exercitationem. Tenetur veritatis maiores incidunt qui et. Sequi, sint neque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, rem impedit eaque earum veniam, maxime pariatur, quas consequatur animi vero tenetur odit ab temporibus aperiam cum in officiis a nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt libero veniam modi consectetur atque voluptate? Consequuntur omnis, debitis tempore optio ex rerum eos quam quae exercitationem veniam, assumenda suscipit delectus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odit praesentium corporis vero velit quo, maxime maiores deserunt assumenda, iste numquam quis asperiores officia dolores quos tempore et! Dolores, aperiam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse laboriosam corrupti, ad velit quis beatae adipisci aliquid consequatur provident earum est quibusdam nisi, magni, eveniet eum mollitia. Doloremque, pariatur laudantium!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam excepturi deserunt, pariatur incidunt asperiores dolorem, voluptas, quidem maiores mollitia exercitationem. Tenetur veritatis maiores incidunt qui et. Sequi, sint neque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, rem impedit eaque earum veniam, maxime pariatur, quas consequatur animi vero tenetur odit ab temporibus aperiam cum in officiis a nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt libero veniam modi consectetur atque voluptate? Consequuntur omnis, debitis tempore optio ex rerum eos quam quae exercitationem veniam, assumenda suscipit delectus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odit praesentium corporis vero velit quo, maxime maiores deserunt assumenda, iste numquam quis asperiores officia dolores quos tempore et! Dolores, aperiam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse laboriosam corrupti, ad velit quis beatae adipisci aliquid consequatur provident earum est quibusdam nisi, magni, eveniet eum mollitia. Doloremque, pariatur laudantium!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam excepturi deserunt, pariatur incidunt asperiores dolorem, voluptas, quidem maiores mollitia exercitationem. Tenetur veritatis maiores incidunt qui et. Sequi, sint neque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, rem impedit eaque earum veniam, maxime pariatur, quas consequatur animi vero tenetur odit ab temporibus aperiam cum in officiis a nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt libero veniam modi consectetur atque voluptate? Consequuntur omnis, debitis tempore optio ex rerum eos quam quae exercitationem veniam, assumenda suscipit delectus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odit praesentium corporis vero velit quo, maxime maiores deserunt assumenda, iste numquam quis asperiores officia dolores quos tempore et! Dolores, aperiam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse laboriosam corrupti, ad velit quis beatae adipisci aliquid consequatur provident earum est quibusdam nisi, magni, eveniet eum mollitia. Doloremque, pariatur laudantium!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam excepturi deserunt, pariatur incidunt asperiores dolorem, voluptas, quidem maiores mollitia exercitationem. Tenetur veritatis maiores incidunt qui et. Sequi, sint neque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, rem impedit eaque earum veniam, maxime pariatur, quas consequatur animi vero tenetur odit ab temporibus aperiam cum in officiis a nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt libero veniam modi consectetur atque voluptate? Consequuntur omnis, debitis tempore optio ex rerum eos quam quae exercitationem veniam, assumenda suscipit delectus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odit praesentium corporis vero velit quo, maxime maiores deserunt assumenda, iste numquam quis asperiores officia dolores quos tempore et! Dolores, aperiam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse laboriosam corrupti, ad velit quis beatae adipisci aliquid consequatur provident earum est quibusdam nisi, magni, eveniet eum mollitia. Doloremque, pariatur laudantium!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam excepturi deserunt, pariatur incidunt asperiores dolorem, voluptas, quidem maiores mollitia exercitationem. Tenetur veritatis maiores incidunt qui et. Sequi, sint neque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, rem impedit eaque earum veniam, maxime pariatur, quas consequatur animi vero tenetur odit ab temporibus aperiam cum in officiis a nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt libero veniam modi consectetur atque voluptate? Consequuntur omnis, debitis tempore optio ex rerum eos quam quae exercitationem veniam, assumenda suscipit delectus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odit praesentium corporis vero velit quo, maxime maiores deserunt assumenda, iste numquam quis asperiores officia dolores quos tempore et! Dolores, aperiam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse laboriosam corrupti, ad velit quis beatae adipisci aliquid consequatur provident earum est quibusdam nisi, magni, eveniet eum mollitia. Doloremque, pariatur laudantium!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam excepturi deserunt, pariatur incidunt asperiores dolorem, voluptas, quidem maiores mollitia exercitationem. Tenetur veritatis maiores incidunt qui et. Sequi, sint neque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, rem impedit eaque earum veniam, maxime pariatur, quas consequatur animi vero tenetur odit ab temporibus aperiam cum in officiis a nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt libero veniam modi consectetur atque voluptate? Consequuntur omnis, debitis tempore optio ex rerum eos quam quae exercitationem veniam, assumenda suscipit delectus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odit praesentium corporis vero velit quo, maxime maiores deserunt assumenda, iste numquam quis asperiores officia dolores quos tempore et! Dolores, aperiam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse laboriosam corrupti, ad velit quis beatae adipisci aliquid consequatur provident earum est quibusdam nisi, magni, eveniet eum mollitia. Doloremque, pariatur laudantium!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam excepturi deserunt, pariatur incidunt asperiores dolorem, voluptas, quidem maiores mollitia exercitationem. Tenetur veritatis maiores incidunt qui et. Sequi, sint neque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, rem impedit eaque earum veniam, maxime pariatur, quas consequatur animi vero tenetur odit ab temporibus aperiam cum in officiis a nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt libero veniam modi consectetur atque voluptate? Consequuntur omnis, debitis tempore optio ex rerum eos quam quae exercitationem veniam, assumenda suscipit delectus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odit praesentium corporis vero velit quo, maxime maiores deserunt assumenda, iste numquam quis asperiores officia dolores quos tempore et! Dolores, aperiam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse laboriosam corrupti, ad velit quis beatae adipisci aliquid consequatur provident earum est quibusdam nisi, magni, eveniet eum mollitia. Doloremque, pariatur laudantium!</p>
 </body>
 </html>
