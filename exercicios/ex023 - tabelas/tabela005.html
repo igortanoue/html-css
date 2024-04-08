@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th, td {
+            border: 1px solid gray;
+            padding: 30px;
+        }
+        .cnome {
+            background-color: green;
+        }
+        .csexo {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome" span="4">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nomes</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Artistar</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>75</td>
+            <td>Naturalmente</td>
+        </tr>
+        <tr>
+            <td>Sona</td>
+            <td>F</td>
+            <td>15</td>
+            <td>Harpista</td>
+        </tr>
+        <tr>
+            <td>Gesolina</td>
+            <td>F</td>
+            <td>67</td>
+            <td>Atriz</td>
+        </tr>
+        <tr>
+            <td>Bob Dylan</td>
+            <td>M</td>
+            <td>33</td>
+            <td>Cantor</td>
+        </tr>
+        <tr>
+            <td>Billie elish</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Cantora</td>
+        </tr>
+    </table>
+</body>
+</html>
