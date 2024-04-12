@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox radio button</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas" checked> <label for="isxmas">Masculino</label>
+            <input type="radio" name="sexo" id="isxfe"> <label for="isxfe">Feminino</label>
+            <!--Radio tem que deixar o mesmo name das bolinhas-->
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esfu" id="iesfu"> <label for="iesfu">Futebol</label> <br> 
+            <input type="checkbox" name="esba" id="iesba"> <label for="iesba">Basquete</label> <br>
+            <input type="checkbox" name="este" id="ieste"> <label for="ieste">Tenis</label> <br>
+            <input type="checkbox" name="esca" id="iesca"> <label for="iesca">Canoagem</label> <br>
+            <input type="checkbox" name="esna" id="iesna" checked> <label for="iesna">Nado</label> <br>
+            <input type="checkbox" name="essu" id="iessu"> <label for="iessu">Surf</label> <br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
