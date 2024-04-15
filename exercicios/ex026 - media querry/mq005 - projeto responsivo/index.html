@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
-        <h1>Meu site</h1>
-        <menu>
+        <h1>Wiki Professor</h1>
+        <span id="burg" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <menu id="itens">
             <ul>
                 <li><a href="#"> Home</a></li>
                 <li><a href="#"> Noticias</a></li>
@@ -30,16 +34,16 @@
             <h2>Primeiros passos</h2>
             <p>O primeiro passo, assim como nas outras profissões, é verificar os itens que podem ser feitos com skill 0. Nesse caso é possivel fazer Small Potion e Exotic Flower.</p>
             <ul>
-                <p>Dicas:</p>
+                <p>Dicas:</p> <br>
                 <li>É uma boa ideia caçar Pokémon que podem fornecer os ingredientes necessários para a criação dos itens, como por exemplo: Pokémon do elemento planta. Esses Pokémon costumam dropar muitos seeds (item), que são utilizados em grande quantidade nessa profissão. Além disso, caso seja level baixo, os itens que você fizer (como poções) podem lhe ajudar durante a sua jornada, fazendo com que aumente seu nível de habilidade na profissão e ao mesmo tempo tenha menos custo nas suas hunts.</li>
-                <li>Tome cuidado ao comprar ingredientes no Market, pois se pagar caro demais, pode acabar tendo prejuízo mesmo após a venda da sua criação.</li>
+                <li>Tome cuidado ao comprar ingredientes no Market, pois se pagar caro demais, pode acabar tendo prejuízo mesmo após a venda da sua criação.</li> <br>
             </ul>
             <h2>Coleta de Recursos</h2>
             <p>Essa profissão requer muita paciência na coleta dos recursos, que gira em torno de colher arbustos (Bushes) que estão presentes nas florestas, bem como outros arbustos maiores que aparecem aleatoriamente pelo mapa, mas que aumentam significativamente o número de recursos adquiridos. <br>
 
             Esse material é usado para produzir praticamente todos os itens dos Professores, desde plantas até as mais sofisticadas das Pokédex. <br>
                 
-            Dica: Quando quiser focar em conseguir recurso, tente achar um lugar com muitos arbustos e fazer uma rota fixa, pois os mesmos sempre voltam a crescer depois de um tempo. <br></p>
+            Dica: Quando quiser focar em conseguir recurso, tente achar um lugar com muitos arbustos e fazer uma rota fixa, pois os mesmos sempre voltam a crescer depois de um tempo. <br></p> <br>
             <h2>Exclusividades</h2>
             <p>Ao atingir o nível 20 do Skill de Profissão, o Professor terá a oportunidade de começar a trabalhar com seus estudantes, isto é, ele poderá enviá-los para realizar missões sob o seu comando e ainda receberá as recompensas que eles conquistarem. Para administrar os estudantes é necessário usar um item chamado Student Monitor, que pode ser utilizado gratuitamente na sala do mentor da Profissão (no Trade Center) ou criado através do sistema de Craft para usar dentro de uma casa. <br>
 
@@ -56,7 +60,8 @@
                 <li>Capturing Missions: São missões um pouco mais raras, o estudante receberá experiência e trará alguns itens, com a possibilidade de capturar um Pokémon para o Professor.</li> <br>
                 <li>Special Missions: As missões especiais são as que podem proporcionar a melhor recompensa de todas, como itens de extremo valor, mas há muitas variações. Além disso, são raras e você deve sempre escolher o estudante que terá mais chance de sucesso.</li> <br>
             </ul>
-            Por fim, o Professor também pode chamar um estudante para ajudar em suas batalhas em tempo real, mas para isso é necessário que o Professor tenha um Smartphone, isto é, um item que deve ser produzido por um Engenheiro. <br>
+
+            <p>Por fim, o Professor também pode chamar um estudante para ajudar em suas batalhas em tempo real, mas para isso é necessário que o Professor tenha um Smartphone, isto é, um item que deve ser produzido por um Engenheiro.</p>
                 
             <ul>
                 <li>Dica 1: Evite trocar de Pokémon a todo momento, faça isso sabiamente quando o seu estudante estiver em um nível mais avançado em comparação aos Pokémon atuais.</li> <br>
@@ -65,5 +70,14 @@
             </ul> <br></p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+                if (itens.style.display == 'block') {
+                    itens.style.display = 'none'
+                } else {
+                    itens.style.display = 'block'
+                }
+        }
+    </script>
 </body>
 </html>
